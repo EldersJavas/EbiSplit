@@ -6,13 +6,11 @@ package app
 UI布局
 
 --------------------------------
-|   Time
-|
-|  GameName               icon
-|  Best Record : xxx
+|   Time                        |
+|                               |
+|  GameName               icon  |
+|  Best Record : xxx            |
 -----------------------------------
-
-
 
 */
 
