@@ -1,3 +1,15 @@
 {
-  "version": "1.0"
+  "Version": "1.0",
+  "GameName": "value",
+  "GameIcon": "value",
+  "RecordList": [
+    {
+      "Player": "value",
+      "Time": "10:58:35.076",
+      "note": "value"
+    }
+  ],
+  "TimingOpt": "In-Game",
+  "TimeFormat": "hh:mm:ss.xxx",
+  "Site": "http"
 }
