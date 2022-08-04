@@ -1,1 +1,7 @@
-{}
+{
+  "Version": "1.0",
+  "WindowSize": {
+    "Width": 250,
+    "Height": 90
+  }
+}

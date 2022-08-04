@@ -21,7 +21,7 @@ func (r *Config) Marshal() ([]byte, error) {
 }
 
 type Config struct {
-	Version    *string     `json:"Version,omitempty"`
+	Version    string      `json:"Version,omitempty"`
 	WindowSize *WindowSize `json:"WindowSize,omitempty"`
 	Background *Background `json:"Background,omitempty"`
 	Foreground *Background `json:"Foreground,omitempty"`
@@ -33,10 +33,10 @@ type Background struct {
 }
 
 type Color struct {
-	R *int64 `json:"R,omitempty"`
-	G *int64 `json:"G,omitempty"`
-	B *int64 `json:"B,omitempty"`
-	A *int64 `json:"A,omitempty"`
+	R int `json:"R,omitempty"`
+	G int `json:"G,omitempty"`
+	B int `json:"B,omitempty"`
+	A int `json:"A,omitempty"`
 }
 
 type Font struct {
@@ -45,6 +45,6 @@ type Font struct {
 }
 
 type WindowSize struct {
-	Width  *int64 `json:"Width,omitempty"`
-	Height *int64 `json:"Height,omitempty"`
+	Width  int `json:"Width,omitempty"`
+	Height int `json:"Height,omitempty"`
 }
